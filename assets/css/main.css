@@ -1,0 +1,143 @@
+/* CSS INDEX
+===================
+
+01. Theme default CSS
+02. header
+03. global
+04. hero
+05. about
+06. feature
+07. token
+08. roadmap
+09. team
+10. faq
+11. brand
+12. contact
+13. blog
+14. user option
+15. advantages
+16. solution
+17. pricing
+18. service
+19. product
+20. cta
+21. newslatter
+22. preloader
+23. backtotop
+24. breadcrumb
+25. sec-title
+
+
+-----------------------------------------------------------------------------------*/ 
+@import url("https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700&family=Plus+Jakarta+Sans:wght@300;400;500;600;700&family=Titillium+Web:wght@400;600;700&display=swap");
+:root {
+--font-body: 'Outfit', sans-serif;
+--font-heading: 'Plus Jakarta Sans', sans-serif;
+--color-primary: #3C12D4;
+--gradient-color-from: #45ACAB;
+--gradient-color-to: #4788AC;
+--color-white: #fff;
+--color-black: #000;
+--color-default: #B3B3C0;
+--color-dark: #0F1928;
+--color-gray: #eeedef; }
+
+/* reset css start */
+html {
+scroll-behavior: smooth; }
+
+body {
+padding: 0;
+margin: 0;
+font-weight: 400;
+position: relative;
+font-family: var(--font-body);
+font-size: 16px;
+line-height: 26px;
+color: var(--color-default);
+background-color: #0B0B29; }
+
+img {
+max-width: 100%;
+height: auto; }
+
+ul {
+margin: 0px;
+padding: 0px; }
+
+button {
+cursor: pointer; }
+
+*:focus {
+outline: none; }
+
+button {
+border: none;
+-webkit-transition: 0.3s;
+-o-transition: 0.3s;
+transition: 0.3s; }
+
+button:focus {
+outline: none; }
+
+a {
+text-decoration: none;
+-webkit-transition: 0.3s;
+-o-transition: 0.3s;
+transition: 0.3s; }
+a:hover {
+color: inherit; }
+
+select {
+height: 55px;
+-webkit-appearance: none;
+-moz-appearance: none;
+appearance: none;
+background-position: calc(100% - 10px) 50%;
+background-repeat: no-repeat;
+padding-right: 20px;
+background-color: transparent;
+border: 0; }
+
+input[type="text"], input[type="password"], input[type="email"], input[type="tel"], form select, textarea {
+width: 100%;
+height: 50px;
+border-radius: 5px;
+-webkit-border-radius: 5px;
+-moz-border-radius: 5px;
+-ms-border-radius: 5px;
+-o-border-radius: 5px;
+background-color: #1D1D3E;
+color: var(--color-white);
+padding: 20px;
+border: 0;
+-webkit-transition: 0.3s;
+-o-transition: 0.3s;
+transition: 0.3s;
+font-weight: 400; }
+input[type="text"]::-webkit-input-placeholder, input[type="password"]::-webkit-input-placeholder, input[type="email"]::-webkit-input-placeholder, input[type="tel"]::-webkit-input-placeholder, form select::-webkit-input-placeholder, textarea::-webkit-input-placeholder {
+color: #B3B3C0;
+opacity: 1; }
+input[type="text"]::-moz-placeholder, input[type="password"]::-moz-placeholder, input[type="email"]::-moz-placeholder, input[type="tel"]::-moz-placeholder, form select::-moz-placeholder, textarea::-moz-placeholder {
+color: #B3B3C0;
+opacity: 1; }
+input[type="text"]:-ms-input-placeholder, input[type="password"]:-ms-input-placeholder, input[type="email"]:-ms-input-placeholder, input[type="tel"]:-ms-input-placeholder, form select:-ms-input-placeholder, textarea:-ms-input-placeholder {
+color: #B3B3C0;
+opacity: 1; }
+input[type="text"]:-moz-placeholder, input[type="password"]:-moz-placeholder, input[type="email"]:-moz-placeholder, input[type="tel"]:-moz-placeholder, form select:-moz-placeholder, textarea:-moz-placeholder {
+color: #B3B3C0;
+opacity: 1; }
+
+textarea {
+height: 100px; }
+
+button {
+border: 0; }
+
+table {
+width: 100%; }
+
+p, li, span {
+margin-bottom: 0; }
+
+/* reset css end */
