@@ -3239,4 +3239,445 @@ h1, h2, h3, h4, h5, h6 {
       padding-bottom: 100px; } }
   
   /*----------------------------------------*/
+ /*  04. hero
+/*----------------------------------------*/
+.hero__bitcoin {
+    min-height: 790px;
+    display: flex;
+    align-items: center; }
+    @media only screen and (min-width: 1200px) and (max-width: 1500px) {
+      .hero__bitcoin {
+        min-height: 750px; } }
+    @media (max-width: 1199px) {
+      .hero__bitcoin {
+        min-height: 700px; } }
+    @media (max-width: 991px) {
+      .hero__bitcoin {
+        min-height: 575px; } }
+  .hero__bitcoin-content {
+    -webkit-transform: translateY(55px);
+    -ms-transform: translateY(55px);
+    transform: translateY(55px); }
+    @media (max-width: 991px) {
+      .hero__bitcoin-content {
+        -webkit-transform: translateY(30px);
+        -ms-transform: translateY(30px);
+        transform: translateY(30px); } }
+    .hero__bitcoin-content .title {
+      font-size: 102px;
+      line-height: 1.1;
+      margin-bottom: 40px;
+      letter-spacing: -3.06px; }
+      @media (max-width: 1199px) {
+        .hero__bitcoin-content .title {
+          font-size: 80px; } }
+      @media (max-width: 991px) {
+        .hero__bitcoin-content .title {
+          font-size: 50px; } }
+      .hero__bitcoin-content .title span {
+        display: inline-block; }
+    .hero__bitcoin-content p {
+      font-size: 20px;
+      line-height: 29px; }
+    .hero__bitcoin-content .btc-btn {
+      font-size: 18px;
+      text-transform: capitalize;
+      letter-spacing: -0.18px;
+      max-width: 412px;
+      width: 100%;
+      padding: 22px 50px; }
+      .hero__bitcoin-content .btc-btn:hover i {
+        right: 45px; }
+      .hero__bitcoin-content .btc-btn i {
+        right: 50px; }
+  .hero__img {
+    position: absolute;
+    right: 0;
+    top: 40px;
+    max-width: 1270px;
+    z-index: -2; }
+    @media only screen and (min-width: 1200px) and (max-width: 1500px) {
+      .hero__img {
+        top: 67px;
+        max-width: 900px; } }
+    @media (max-width: 1199px) {
+      .hero__img {
+        top: 100px;
+        max-width: 700px; } }
+    @media (max-width: 991px) {
+      .hero__img {
+        top: 131px;
+        max-width: 650px;
+        right: -100px; } }
+    @media (max-width: 767px) {
+      .hero__img {
+        top: 92px;
+        max-width: 450px;
+        right: -120px; } }
+  .hero__ico {
+    min-height: 1080px;
+    padding-top: 220px; }
+    @media (max-width: 1199px) {
+      .hero__ico {
+        min-height: 930px; } }
+    @media (max-width: 991px) {
+      .hero__ico {
+        min-height: 1270px; } }
+    @media (max-width: 767px) {
+      .hero__ico {
+        padding-top: 180px; } }
+  .hero__blockchain {
+    min-height: 1060px;
+    padding-top: 260px; }
+    @media (max-width: 1199px) {
+      .hero__blockchain {
+        min-height: 820px; } }
+    @media (max-width: 991px) {
+      .hero__blockchain {
+        padding-top: 160px;
+        min-height: 780px; } }
+    @media (max-width: 767px) {
+      .hero__blockchain {
+        padding-top: 130px;
+        min-height: 800px; } }
+  .hero__bg {
+    background-position: center 250px;
+    position: absolute;
+    bottom: 0;
+    background-repeat: no-repeat;
+    left: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
+    background-size: 100%;
+    z-index: -1; }
+    @media only screen and (min-width: 1200px) and (max-width: 1500px) {
+      .hero__bg {
+        background-position: center 422px; } }
+    @media (max-width: 1199px) {
+      .hero__bg {
+        display: none; } }
+  .hero__content .title {
+    font-size: 60px;
+    line-height: 75px;
+    letter-spacing: -2.4px; }
+    @media (max-width: 991px) {
+      .hero__content .title {
+        font-size: 54px;
+        line-height: 69px; } }
+    @media (max-width: 767px) {
+      .hero__content .title {
+        font-size: 43px;
+        line-height: 57px; } }
+    .hero__content .title span {
+      background: linear-gradient(270deg, #5E2FF4 0%, #8CA7FF 17.47%, #E4DAFF 39.54%, #C570FB 60.49%, #C3B1FE 84.44%, #5E2FF4 100%);
+      background-clip: text;
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent; }
+  .hero__shape .shape {
+    position: absolute;
+    z-index: -2; }
+    .hero__shape .shape--1 {
+      top: 0;
+      left: 0; }
+    .hero__shape .shape--2 {
+      top: 0;
+      left: 0; }
+    .hero__shape .shape--3 {
+      bottom: -100px;
+      right: 0; }
+  .hero__coin .coin {
+    position: absolute; }
+    .hero__coin .coin--1 {
+      left: 1%;
+      bottom: 15.5%; }
+      @media only screen and (min-width: 1200px) and (max-width: 1500px) {
+        .hero__coin .coin--1 {
+          bottom: 20.5%; } }
+      @media (max-width: 1199px) {
+        .hero__coin .coin--1 {
+          bottom: 7.5%; } }
+      @media (max-width: 767px) {
+        .hero__coin .coin--1 {
+          bottom: 3.5%;
+          left: 0; } }
+    .hero__coin .coin--2 {
+      left: 26%;
+      bottom: 17.7%; }
+      @media only screen and (min-width: 1200px) and (max-width: 1500px) {
+        .hero__coin .coin--2 {
+          bottom: 21.7%; } }
+      @media (max-width: 1199px) {
+        .hero__coin .coin--2 {
+          bottom: 9.7%; } }
+      @media (max-width: 767px) {
+        .hero__coin .coin--2 {
+          bottom: 4.7%;
+          left: 36%; } }
+    .hero__coin .coin--3 {
+      right: 43%;
+      bottom: 16%; }
+      @media only screen and (min-width: 1200px) and (max-width: 1500px) {
+        .hero__coin .coin--3 {
+          right: 41.5%;
+          bottom: 21%; } }
+      @media (max-width: 1199px) {
+        .hero__coin .coin--3 {
+          bottom: 8%; } }
+      @media (max-width: 767px) {
+        .hero__coin .coin--3 {
+          right: 3%;
+          bottom: 5%; } }
+    .hero__coin .coin--4 {
+      right: 35%;
+      bottom: 57%; }
+      @media only screen and (min-width: 1200px) and (max-width: 1500px) {
+        .hero__coin .coin--4 {
+          right: 32%;
+          bottom: 53%; } }
+      @media (max-width: 991px) {
+        .hero__coin .coin--4 {
+          right: 19%;
+          bottom: 64%; } }
+    .hero__coin .coin--5 {
+      right: 13%;
+      top: 22%; }
+      @media only screen and (min-width: 1200px) and (max-width: 1500px) {
+        .hero__coin .coin--5 {
+          top: 36%; } }
+      @media (max-width: 1199px) {
+        .hero__coin .coin--5 {
+          right: 3%;
+          top: 20%; } }
+      @media (max-width: 767px) {
+        .hero__coin .coin--5 {
+          right: 0;
+          top: 24%; } }
+    .hero__coin .coin--6 {
+      right: 3%;
+      bottom: 36%; }
+      @media (max-width: 1199px) {
+        .hero__coin .coin--6 {
+          bottom: 21%; } }
+      @media (max-width: 767px) {
+        .hero__coin .coin--6 {
+          bottom: 28%; } }
+  .hero__explore span {
+    color: var(--color-white);
+    font-size: 20px;
+    margin-top: 13px;
+    display: inline-block; }
+  .hero__explore .scroll-down {
+    width: 22px;
+    height: 33px;
+    border: 1px solid var(--color-white);
+    border-radius: 11px;
+    position: relative;
+    overflow: hidden;
+    margin: 0 auto; }
+    .hero__explore .scroll-down:before {
+      content: "";
+      position: absolute;
+      left: 50%;
+      top: 18px;
+      width: 2px;
+      height: 2px;
+      border-radius: 100%;
+      transform: translateX(-50%);
+      background: var(--color-white);
+      animation: scrollDown 1.5s ease infinite; }
+    .hero__explore .scroll-down:after {
+      content: "";
+      position: absolute;
+      left: 50%;
+      top: 8px;
+      width: 2px;
+      height: 8px;
+      border-radius: 3px;
+      transform: translateX(-50%);
+      background: var(--color-white); }
+  .hero__countdown h6 {
+    color: var(--color-white);
+    font-size: 24px;
+    font-weight: 600;
+    margin-bottom: 40px;
+    letter-spacing: -0.96px; }
+  .hero__countdown .countdown .single {
+    min-width: 100px;
+    height: 100px;
+    background-color: #1F1F48;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    color: var(--color-white);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 10px; }
+    @media (max-width: 1199px) {
+      .hero__countdown .countdown .single {
+        min-width: 80px;
+        height: 80px; } }
+    .hero__countdown .countdown .single:not(:last-child) {
+      margin-right: 10px; }
+    .hero__countdown .countdown .single h1 {
+      font-size: 30px;
+      color: var(--color-white);
+      font-weight: 600;
+      margin-bottom: 2px; }
+      @media (max-width: 1199px) {
+        .hero__countdown .countdown .single h1 {
+          font-size: 20px; } }
+    .hero__countdown .countdown .single p {
+      font-size: 14px;
+      text-transform: uppercase;
+      color: rgba(255, 255, 255, 0.6);
+      font-weight: 600; }
+  .hero__explore-wrap {
+    -webkit-transform: translate(24%, 31%);
+    -ms-transform: translate(24%, 31%);
+    transform: translate(24%, 31%); }
+    @media only screen and (min-width: 1200px) and (max-width: 1500px) {
+      .hero__explore-wrap {
+        -webkit-transform: translate(-2%, 63%);
+        -ms-transform: translate(-2%, 63%);
+        transform: translate(-2%, 63%); } }
+    @media (max-width: 1199px) {
+      .hero__explore-wrap {
+        -webkit-transform: translate(0, 5%);
+        -ms-transform: translate(0, 5%);
+        transform: translate(0, 5%); } }
+    @media (max-width: 991px) {
+      .hero__explore-wrap {
+        margin-top: 30px; } }
+  .hero__explore {
+    margin-bottom: 260px; }
+    @media only screen and (min-width: 1200px) and (max-width: 1500px) {
+      .hero__explore {
+        margin-bottom: 200px; } }
+    @media (max-width: 1199px) {
+      .hero__explore {
+        margin-bottom: 100px; } }
+  .hero__progress {
+    max-width: 672px; }
+    .hero__progress .progress {
+      overflow: unset;
+      height: 6px;
+      border-radius: 60px;
+      -webkit-border-radius: 60px;
+      -moz-border-radius: 60px;
+      -ms-border-radius: 60px;
+      -o-border-radius: 60px;
+      background: rgba(255, 255, 255, 0.1); }
+    .hero__progress .progress-bar {
+      border-radius: 1px;
+      -webkit-border-radius: 1px;
+      -moz-border-radius: 1px;
+      -ms-border-radius: 1px;
+      -o-border-radius: 1px;
+      background: var(--gardient, linear-gradient(270deg, #5E2FF4 0%, #8CA7FF 17.47%, #E4DAFF 39.54%, #C570FB 60.49%, #C3B1FE 84.44%, #5E2FF4 100%));
+      height: 8px;
+      top: -1px;
+      position: relative; }
+    .hero__progress .progress-title {
+      margin-bottom: 22px; }
+      .hero__progress .progress-title span {
+        color: var(--color-white);
+        font-weight: 600;
+        font-size: 14px; }
+        .hero__progress .progress-title span span {
+          color: #B3B3C0; }
+    .hero__progress ul {
+      margin-top: 38px; }
+      .hero__progress ul li {
+        font-size: 14px;
+        color: var(--color-white);
+        font-weight: 600;
+        text-transform: uppercase;
+        position: relative; }
+        .hero__progress ul li::before {
+          position: absolute;
+          left: 50%;
+          -webkit-transform: translateX(-50%);
+          -ms-transform: translateX(-50%);
+          transform: translateX(-50%);
+          content: "";
+          width: 2px;
+          height: 10px;
+          background-color: var(--color-white);
+          top: -18px; }
+  .hero__blockchain-icon .icon span {
+    display: inline-block;
+    -webkit-transform: translate(32px, -10px);
+    -ms-transform: translate(32px, -10px);
+    transform: translate(32px, -10px); }
+  .hero__blockchain-icon .icon--1 {
+    top: -176px;
+    left: 25%; }
+    @media only screen and (min-width: 1200px) and (max-width: 1500px) {
+      .hero__blockchain-icon .icon--1 {
+        top: -170px;
+        left: 20%; } }
+    @media (max-width: 1199px) {
+      .hero__blockchain-icon .icon--1 {
+        left: 0; } }
+    @media (max-width: 991px) {
+      .hero__blockchain-icon .icon--1 {
+        top: auto;
+        bottom: -135px; } }
+  .hero__blockchain-icon .icon--2 {
+    bottom: -207px;
+    left: 4%; }
+  .hero__blockchain-icon .icon--3 {
+    top: -188px;
+    right: -43%; }
+    @media only screen and (min-width: 1200px) and (max-width: 1500px) {
+      .hero__blockchain-icon .icon--3 {
+        top: -170px;
+        right: 0; } }
+    @media (max-width: 1199px) {
+      .hero__blockchain-icon .icon--3 {
+        right: 0; } }
+    @media (max-width: 991px) {
+      .hero__blockchain-icon .icon--3 {
+        top: auto;
+        bottom: -100px; } }
+  .hero__blockchain-icon .icon--4 {
+    bottom: -222px;
+    right: -24%; }
+    .hero__blockchain-icon .icon--4 span {
+      -webkit-transform: translate(-32px, -10px);
+      -ms-transform: translate(-32px, -10px);
+      transform: translate(-32px, -10px); }
+    @media only screen and (min-width: 1200px) and (max-width: 1500px) {
+      .hero__blockchain-icon .icon--4 {
+        right: 0; } }
+    @media (max-width: 1199px) {
+      .hero__blockchain-icon .icon--4 {
+        right: 0; } }
+    @media (max-width: 991px) {
+      .hero__blockchain-icon .icon--4 {
+        bottom: -208px; } }
   
+  @media (max-width: 1199px) {
+    .blockchain-hero__content .title {
+      font-size: 60px; } }
+  @media (max-width: 767px) {
+    .blockchain-hero__content .title {
+      font-size: 40px; } }
+  
+  @keyframes scrollDown {
+    0% {
+      transform: translate(-50%, 0px);
+      opacity: 0; }
+    50% {
+      transform: translate(-50%, 4px);
+      opacity: 1; }
+    100% {
+      transform: translate(-50%, 7px);
+      opacity: 0; } }
+  /*----------------------------------------*/
+   
