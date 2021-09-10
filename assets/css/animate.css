@@ -1726,5 +1726,241 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
       opacity: 1;
     }
   }
+  .flipInX {
+    -webkit-backface-visibility: visible !important;
+    -ms-backface-visibility: visible !important;
+    backface-visibility: visible !important;
+    -webkit-animation-name: flipInX;
+    animation-name: flipInX;
+  }
+  
+  @-webkit-keyframes flipInY {
+    0% {
+      -webkit-transform: perspective(400px) rotateY(90deg);
+      transform: perspective(400px) rotateY(90deg);
+      opacity: 0;
+    }
+  
+    40% {
+      -webkit-transform: perspective(400px) rotateY(-10deg);
+      transform: perspective(400px) rotateY(-10deg);
+    }
+  
+    70% {
+      -webkit-transform: perspective(400px) rotateY(10deg);
+      transform: perspective(400px) rotateY(10deg);
+    }
+  
+    100% {
+      -webkit-transform: perspective(400px) rotateY(0deg);
+      transform: perspective(400px) rotateY(0deg);
+      opacity: 1;
+    }
+  }
+  
+  @keyframes flipInY {
+    0% {
+      -webkit-transform: perspective(400px) rotateY(90deg);
+      -ms-transform: perspective(400px) rotateY(90deg);
+      transform: perspective(400px) rotateY(90deg);
+      opacity: 0;
+    }
+  
+    40% {
+      -webkit-transform: perspective(400px) rotateY(-10deg);
+      -ms-transform: perspective(400px) rotateY(-10deg);
+      transform: perspective(400px) rotateY(-10deg);
+    }
+  
+    70% {
+      -webkit-transform: perspective(400px) rotateY(10deg);
+      -ms-transform: perspective(400px) rotateY(10deg);
+      transform: perspective(400px) rotateY(10deg);
+    }
+  
+    100% {
+      -webkit-transform: perspective(400px) rotateY(0deg);
+      -ms-transform: perspective(400px) rotateY(0deg);
+      transform: perspective(400px) rotateY(0deg);
+      opacity: 1;
+    }
+  }
+  
+  .flipInY {
+    -webkit-backface-visibility: visible !important;
+    -ms-backface-visibility: visible !important;
+    backface-visibility: visible !important;
+    -webkit-animation-name: flipInY;
+    animation-name: flipInY;
+  }
+  
+  @-webkit-keyframes flipOutX {
+    0% {
+      -webkit-transform: perspective(400px) rotateX(0deg);
+      transform: perspective(400px) rotateX(0deg);
+      opacity: 1;
+    }
+  
+    100% {
+      -webkit-transform: perspective(400px) rotateX(90deg);
+      transform: perspective(400px) rotateX(90deg);
+      opacity: 0;
+    }
+  }
+  
+  @keyframes flipOutX {
+    0% {
+      -webkit-transform: perspective(400px) rotateX(0deg);
+      -ms-transform: perspective(400px) rotateX(0deg);
+      transform: perspective(400px) rotateX(0deg);
+      opacity: 1;
+    }
+  
+    100% {
+      -webkit-transform: perspective(400px) rotateX(90deg);
+      -ms-transform: perspective(400px) rotateX(90deg);
+      transform: perspective(400px) rotateX(90deg);
+      opacity: 0;
+    }
+  }
+  
+  .flipOutX {
+    -webkit-animation-name: flipOutX;
+    animation-name: flipOutX;
+    -webkit-backface-visibility: visible !important;
+    -ms-backface-visibility: visible !important;
+    backface-visibility: visible !important;
+  }
+  
+  @-webkit-keyframes flipOutY {
+    0% {
+      -webkit-transform: perspective(400px) rotateY(0deg);
+      transform: perspective(400px) rotateY(0deg);
+      opacity: 1;
+    }
+  
+    100% {
+      -webkit-transform: perspective(400px) rotateY(90deg);
+      transform: perspective(400px) rotateY(90deg);
+      opacity: 0;
+    }
+  }
+  
+  @keyframes flipOutY {
+    0% {
+      -webkit-transform: perspective(400px) rotateY(0deg);
+      -ms-transform: perspective(400px) rotateY(0deg);
+      transform: perspective(400px) rotateY(0deg);
+      opacity: 1;
+    }
+  
+    100% {
+      -webkit-transform: perspective(400px) rotateY(90deg);
+      -ms-transform: perspective(400px) rotateY(90deg);
+      transform: perspective(400px) rotateY(90deg);
+      opacity: 0;
+    }
+  }
+  
+  .flipOutY {
+    -webkit-backface-visibility: visible !important;
+    -ms-backface-visibility: visible !important;
+    backface-visibility: visible !important;
+    -webkit-animation-name: flipOutY;
+    animation-name: flipOutY;
+  }
+  
+  @-webkit-keyframes lightSpeedIn {
+    0% {
+      -webkit-transform: translateX(100%) skewX(-30deg);
+      transform: translateX(100%) skewX(-30deg);
+      opacity: 0;
+    }
+  
+    60% {
+      -webkit-transform: translateX(-20%) skewX(30deg);
+      transform: translateX(-20%) skewX(30deg);
+      opacity: 1;
+    }
+  
+    80% {
+      -webkit-transform: translateX(0%) skewX(-15deg);
+      transform: translateX(0%) skewX(-15deg);
+      opacity: 1;
+    }
+  
+    100% {
+      -webkit-transform: translateX(0%) skewX(0deg);
+      transform: translateX(0%) skewX(0deg);
+      opacity: 1;
+    }
+  }
+  
+  @keyframes lightSpeedIn {
+    0% {
+      -webkit-transform: translateX(100%) skewX(-30deg);
+      -ms-transform: translateX(100%) skewX(-30deg);
+      transform: translateX(100%) skewX(-30deg);
+      opacity: 0;
+    }
+  
+    60% {
+      -webkit-transform: translateX(-20%) skewX(30deg);
+      -ms-transform: translateX(-20%) skewX(30deg);
+      transform: translateX(-20%) skewX(30deg);
+      opacity: 1;
+    }
+  
+    80% {
+      -webkit-transform: translateX(0%) skewX(-15deg);
+      -ms-transform: translateX(0%) skewX(-15deg);
+      transform: translateX(0%) skewX(-15deg);
+      opacity: 1;
+    }
+  
+    100% {
+      -webkit-transform: translateX(0%) skewX(0deg);
+      -ms-transform: translateX(0%) skewX(0deg);
+      transform: translateX(0%) skewX(0deg);
+      opacity: 1;
+    }
+  }
+  
+  .lightSpeedIn {
+    -webkit-animation-name: lightSpeedIn;
+    animation-name: lightSpeedIn;
+    -webkit-animation-timing-function: ease-out;
+    animation-timing-function: ease-out;
+  }
+  
+  @-webkit-keyframes lightSpeedOut {
+    0% {
+      -webkit-transform: translateX(0%) skewX(0deg);
+      transform: translateX(0%) skewX(0deg);
+      opacity: 1;
+    }
+  
+    100% {
+      -webkit-transform: translateX(100%) skewX(-30deg);
+      transform: translateX(100%) skewX(-30deg);
+      opacity: 0;
+    }
+  }
+  
+  @keyframes lightSpeedOut {
+    0% {
+      -webkit-transform: translateX(0%) skewX(0deg);
+      -ms-transform: translateX(0%) skewX(0deg);
+      transform: translateX(0%) skewX(0deg);
+      opacity: 1;
+    }
+  
+    100% {
+      -webkit-transform: translateX(100%) skewX(-30deg);
+      -ms-transform: translateX(100%) skewX(-30deg);
+      transform: translateX(100%) skewX(-30deg);
+      opacity: 0;
+    }
+  }
   
   
