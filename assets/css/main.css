@@ -4822,4 +4822,315 @@ h1, h2, h3, h4, h5, h6 {
     background-size: contain; }
   
   /*----------------------------------------*/
+  /*  10. faq
+/*----------------------------------------*/
+.faq__wrap {
+    padding: 0 66px; }
+    @media (max-width: 991px) {
+      .faq__wrap {
+        padding: 0; } }
+  .faq__sec-shape .shape {
+    position: absolute;
+    z-index: -1; }
+    .faq__sec-shape .shape--1 {
+      top: 10%;
+      left: 0; }
+    .faq__sec-shape .shape--2 {
+      right: 0;
+      bottom: 9%; }
+  .faq__blockchain {
+    padding: 0 70px; }
+    @media (max-width: 991px) {
+      .faq__blockchain {
+        padding: 0; } }
+    .faq__blockchain .accordion_box .block {
+      border-color: #262932 !important; }
+      .faq__blockchain .accordion_box .block .acc-btn {
+        padding: 30px 0;
+        font-family: 'Titillium Web', sans-serif;
+        font-weight: 400; }
+      .faq__blockchain .accordion_box .block .content {
+        border-top: 0;
+        padding-top: 0; }
+    .faq__blockchain .accordion.block.active-block .acc-btn .arrow::after {
+      opacity: 1; }
+    .faq__blockchain .accordion.block.active-block .acc-btn .arrow span::before {
+      opacity: 0; }
+    .faq__blockchain .accordion.block.active-block .acc-btn .arrow span::after {
+      opacity: 1; }
+    .faq__blockchain .acc-btn::before, .faq__blockchain .acc-btn::after {
+      display: none; }
+    .faq__blockchain .acc-btn.active .arrow::after {
+      opacity: 1; }
+    .faq__blockchain .acc-btn.active .arrow span::before {
+      opacity: 0; }
+    .faq__blockchain .acc-btn.active .arrow span::after {
+      opacity: 1; }
+    .faq__blockchain .acc-btn span {
+      margin: 0 !important; }
+    .faq__blockchain .arrow {
+      position: absolute;
+      top: 0;
+      right: 0;
+      width: 40px;
+      height: 40px;
+      top: 50%;
+      -webkit-transform: translateY(-50%);
+      -ms-transform: translateY(-50%);
+      transform: translateY(-50%); }
+      .faq__blockchain .arrow::before, .faq__blockchain .arrow::after {
+        position: absolute;
+        top: 0;
+        right: -1px;
+        width: 100%;
+        height: 100%;
+        background-image: url(../img/icon/faq_arrow_bg1.png);
+        background-repeat: no-repeat;
+        content: "";
+        -webkit-transition: 0.3s;
+        -o-transition: 0.3s;
+        transition: 0.3s; }
+      .faq__blockchain .arrow::after {
+        background-image: url(../img/icon/faq_arrow_bg2.png);
+        opacity: 0; }
+      .faq__blockchain .arrow span::before, .faq__blockchain .arrow span::after {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        content: "\f078";
+        font-family: "Font Awesome 5 Pro";
+        font-weight: 400;
+        -webkit-transform: translate(-50%, -50%);
+        -ms-transform: translate(-50%, -50%);
+        transform: translate(-50%, -50%);
+        font-size: 13px;
+        color: #fff; }
+      .faq__blockchain .arrow span::after {
+        content: "\f077";
+        opacity: 0;
+        color: #03050E;
+        z-index: 1;
+        top: 48%; }
+  .faq__btc .accordion_box .block {
+    background-color: #0B1121;
+    border: 0 !important; }
+    .faq__btc .accordion_box .block:not(:last-child) {
+      margin-bottom: 20px; }
+    .faq__btc .accordion_box .block .acc-btn {
+      background-color: #111828;
+      padding: 37px 40px;
+      -webkit-transition: 0.3s;
+      -o-transition: 0.3s;
+      transition: 0.3s;
+      font-size: 24px;
+      font-weight: 400;
+      letter-spacing: -0.48px; }
+      @media (max-width: 767px) {
+        .faq__btc .accordion_box .block .acc-btn {
+          padding: 30px 20px;
+          padding-right: 60px;
+          font-size: 20px;
+          line-height: 30px; } }
+      .faq__btc .accordion_box .block .acc-btn::before, .faq__btc .accordion_box .block .acc-btn::after {
+        display: none; }
+    .faq__btc .accordion_box .block.active-block .acc-btn {
+      background-color: #0B1121;
+      padding-top: 30px;
+      padding-bottom: 27px; }
+      .faq__btc .accordion_box .block.active-block .acc-btn .arrow::before {
+        opacity: 1; }
+      .faq__btc .accordion_box .block.active-block .acc-btn .arrow span::before, .faq__btc .accordion_box .block.active-block .acc-btn .arrow span::after {
+        color: #fff; }
+      .faq__btc .accordion_box .block.active-block .acc-btn .arrow span::before {
+        opacity: 0; }
+      .faq__btc .accordion_box .block.active-block .acc-btn .arrow span::after {
+        opacity: 1; }
+    .faq__btc .accordion_box .block .arrow {
+      position: absolute;
+      top: 50%;
+      right: 48px;
+      -webkit-transform: translateY(-50%);
+      -ms-transform: translateY(-50%);
+      transform: translateY(-50%);
+      width: 34px;
+      height: 34px;
+      background: #fff;
+      margin: 0; }
+      @media (max-width: 767px) {
+        .faq__btc .accordion_box .block .arrow {
+          right: 20px; } }
+      .faq__btc .accordion_box .block .arrow::before {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        z-index: -1;
+        content: "";
+        opacity: 0;
+        -webkit-transition: 0.3s;
+        -o-transition: 0.3s;
+        transition: 0.3s; }
+      .faq__btc .accordion_box .block .arrow span::before, .faq__btc .accordion_box .block .arrow span::after {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        content: "\f078";
+        font-family: "Font Awesome 5 Pro";
+        font-weight: 400;
+        -webkit-transform: translate(-50%, -50%);
+        -ms-transform: translate(-50%, -50%);
+        transform: translate(-50%, -50%);
+        font-size: 13px;
+        color: #0B1121; }
+      .faq__btc .accordion_box .block .arrow span::after {
+        content: "\f077";
+        opacity: 0;
+        color: #03050E;
+        z-index: 1;
+        top: 48%; }
+    .faq__btc .accordion_box .block .content {
+      border: 0;
+      padding: 45px 40px;
+      padding-top: 0;
+      color: #A4BDCC;
+      padding-right: 100px; }
+      @media (max-width: 767px) {
+        .faq__btc .accordion_box .block .content {
+          padding: 30px 20px; } }
+  .faq__nav {
+    border: 0; }
+    @media (max-width: 767px) {
+      .faq__nav {
+        justify-content: start; } }
+    .faq__nav li {
+      margin-bottom: 20px; }
+      .faq__nav li:not(:last-child) {
+        margin-right: 50px; }
+        @media (max-width: 991px) {
+          .faq__nav li:not(:last-child) {
+            margin-right: 35px; } }
+      .faq__nav li .nav-link {
+        font-size: 18px;
+        font-weight: 600;
+        color: #DAEDF8;
+        padding: 0;
+        border: 0; }
+        .faq__nav li .nav-link.active {
+          background-color: transparent; }
+  
+  .accordion__wrap .accordion-title {
+    margin-bottom: 30px; }
+  
+  .accordion_box {
+    position: relative; }
+  
+  .accordion_box .block {
+    position: relative;
+    overflow: hidden; }
+    .accordion_box .block:not(:last-child) {
+      border-bottom: 1px solid #2B2B54; }
+  
+  .accordion_box .block:last-child {
+    margin-bottom: 0; }
+  
+  .accordion_box .block .acc-btn {
+    color: var(--color-white);
+    position: relative;
+    font-weight: 500;
+    font-size: 26px;
+    line-height: 34px;
+    cursor: pointer;
+    padding: 33px 0;
+    padding-right: 20px; }
+    @media (max-width: 767px) {
+      .accordion_box .block .acc-btn {
+        font-size: 22px;
+        line-height: 32px; } }
+  
+  .accordion_box .block .acc-btn span {
+    display: block;
+    font-size: 14px;
+    color: #B3B3C0;
+    font-weight: 600;
+    margin-bottom: 16px; }
+  
+  .accordion_box .block .acc-btn::before,
+  .accordion_box .block .acc-btn::after {
+    position: absolute;
+    top: 53%;
+    -webkit-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+    right: 0;
+    border: 9px solid transparent;
+    border-top: 14px solid rgba(255, 255, 255, 0.3);
+    content: ""; }
+  
+  .accordion_box .block .acc-btn::after {
+    opacity: 1;
+    border: 9px solid transparent;
+    border-bottom: 14px solid var(--color-white);
+    opacity: 0;
+    top: 44%; }
+  
+  .accordion_box .block.active-block .acc-btn::after {
+    opacity: 1; }
+  
+  .accordion_box .block.active-block .acc-btn::before {
+    opacity: 0; }
+  
+  .accordion_box .block .content {
+    position: relative;
+    padding-top: 32px;
+    padding-bottom: 42px;
+    border-top: 1px solid #2B2B54; }
+  
+  .accordion_box .block .content p {
+    font-size: 18px;
+    color: #B3B3C0; }
+    .accordion_box .block .content p:not(:last-child) {
+      margin-bottom: 30px; }
+    .accordion_box .block .content p a {
+      color: var(--color-white);
+      text-decoration: underline;
+      font-weight: 500; }
+  
+  .accordion_box .block .content ul {
+    margin-bottom: 30px;
+    padding-left: 11px;
+    list-style: none; }
+    .accordion_box .block .content ul li {
+      font-size: 18px;
+      color: #B3B3C0;
+      position: relative;
+      padding-left: 17px; }
+      .accordion_box .block .content ul li::before {
+        position: absolute;
+        top: 50%;
+        left: 0;
+        -webkit-transform: translateY(-50%);
+        -ms-transform: translateY(-50%);
+        transform: translateY(-50%);
+        width: 4px;
+        height: 4px;
+        border-radius: 50%;
+        -webkit-border-radius: 50%;
+        -moz-border-radius: 50%;
+        -ms-border-radius: 50%;
+        -o-border-radius: 50%;
+        background-color: var(--color-white);
+        content: ""; }
+      .accordion_box .block .content ul li:not(:last-child) {
+        margin-bottom: 5px;
+        position: relative; }
+  
+  .accordion_box .block .acc_body {
+    position: relative;
+    display: none; }
+  
+  .accordion_box .block .acc_body.current {
+    display: block; }
+  
+  /*----------------------------------------*/
   
