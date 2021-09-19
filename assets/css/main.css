@@ -6197,3 +6197,117 @@ blockquote {
       margin-top: 0; } }
 
 /*----------------------------------------*/
+/*  15. advantages
+/*----------------------------------------*/
+.advantages-bg {
+  background-repeat: no-repeat;
+  background-position: center 76%; }
+
+.advantages-table {
+  background-image: url(../img/bg/table_bg.svg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  border-collapse: separate;
+  padding: 50px;
+  table-layout: auto;
+  border-spacing: 0;
+  fill: #0B0E13;
+  stroke: #262932;
+  filter: drop-shadow(0px 11px 40px rgba(0, 0, 0, 0.9));
+  position: relative; }
+  @media (max-width: 991px) {
+    .advantages-table {
+      padding: 50px 20px; } }
+  .advantages-table::before, .advantages-table::after {
+    position: absolute;
+    top: 2px;
+    left: 1px;
+    width: 54px;
+    height: 64px;
+    content: "";
+    background-color: #fff;
+    clip-path: polygon(0 0, 0 100%, 100% 0);
+    -webkit-transition: 0.3s;
+    -o-transition: 0.3s;
+    transition: 0.3s; }
+    @media (max-width: 991px) {
+      .advantages-table::before, .advantages-table::after {
+        display: none; } }
+  .advantages-table::after {
+    top: auto;
+    left: auto;
+    bottom: 3px;
+    right: 1px;
+    clip-path: polygon(100% 0, 0 100%, 100% 100%); }
+  .advantages-table thead {
+    background-color: #03050E;
+    border: 1px solid #262932; }
+    .advantages-table thead tr {
+      padding: 10px 50px;
+      padding-top: 50px; }
+    .advantages-table thead th {
+      font-size: 18px;
+      padding: 17px 50px; }
+      @media (max-width: 1199px) {
+        .advantages-table thead th {
+          padding: 17px 20px; } }
+  .advantages-table thead tr th,
+  .advantages-table tbody tr td {
+    font-size: 18px;
+    font-weight: 600;
+    color: var(--color-white); }
+    @media (max-width: 991px) {
+      .advantages-table thead tr th,
+      .advantages-table tbody tr td {
+        font-size: 16px; } }
+  .advantages-table tbody tr:first-child td {
+    padding-top: 46px; }
+    @media (max-width: 767px) {
+      .advantages-table tbody tr:first-child td {
+        padding-top: 12px; } }
+  .advantages-table tbody tr:nth-child(even) {
+    background-color: #03050E; }
+  .advantages-table tbody tr td {
+    padding: 12px 50px; }
+    @media (max-width: 1199px) {
+      .advantages-table tbody tr td {
+        padding: 12px 20px; } }
+    .advantages-table tbody tr td:first-child {
+      text-align: left; }
+      @media (max-width: 767px) {
+        .advantages-table tbody tr td:first-child {
+          text-align: center; } }
+  .advantages-table tbody td {
+    text-align: center; }
+
+@media (max-width: 600px) {
+  .advantages-table thead {
+    display: none; }
+
+  .advantages-table {
+    background-image: none;
+    border: 1px solid #262932;
+    padding: 0; }
+
+  .advantages-table table,
+  .advantages-table th,
+  .advantages-table td,
+  .advantages-table tr,
+  .advantages-table tbody {
+    width: 100%;
+    display: block;
+    border: 0;
+    text-align: center; }
+
+  .advantages-table table {
+    border: 1px solid #262932;
+    margin: 0 -1px 24px 0;
+    text-align: left;
+    width: 100%;
+    border-collapse: separate;
+    border-radius: 5px; }
+
+  .advantages-table tbody > tr + tr {
+    border-top: 1px solid #262932;
+    background-color: #03050E; } }
+/*----------------------------------------*/
